@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hohmann Transfer Visualization</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="solar.css"/>
+    <link rel="stylesheet" href="text.css" />
+  </head>
+
+
+  <body class="hide-UI">
+    <div id="navbar">
+      <a id="toggle-data" href="#data"><i class="icon-data"></i>Data</a>
+      <h1>Hohmann Transfer Visualization<span><p>Resources methods and credits</p></span></h1>
+      <a id="toggle-controls" href="#controls"><i class="icon-controls"></i>Controls</a>
+    </div>
+    <div id="data" style="position: relative; padding-top: 5%">
+      <a class="active" href="#transfer">Hohmann Transfer</a>
+      <a href="#dates">Transfer Dates</a>
+      <a href="#position">Planetary Positions</a>
+      <a href="#model">3D Model</a>
+    </div>
+
+	
+    <div style="position: relative;">
+    	<div class="center col-md-7 background">
+    		<br>
+    		  <h2 name="transfer" class="">Hohmann Transfer Orbit</h2>
+    		  <h2 name="dates" class=""> Calculating Transfer Dates</h2>
+    		  <h2 name="position" class="">Calculating Planetary Positions</h2>
+    		  <h2 name="model" class="">Solar System Model</h2>
+    		<br>
+    	</div>
+
+    	<div id="footer">
+    	  <a title="Home" href="solar.html">Home</a>
+    	  <a title="Launch Dates" href="launches.html">Missions</a>
+    	  <a class="active" title="Science" href="resources.html">Resources</a>
+    	</div>
+    	
+    </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="solar.js"></script>
+  </body>
+</html>
